@@ -1,8 +1,10 @@
 name: "Issues"
 
 on:
+  workflow_dispatch:
+    
   issues: 
-    [opened]
+    type: [opened]
 
 jobs:
   main:
