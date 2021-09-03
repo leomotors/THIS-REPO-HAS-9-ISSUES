@@ -16,20 +16,9 @@ async function run() {
         const repourl = repository.url.split('/');
         const repo = repourl[repourl.length - 1];
 
-        try {
-            await octokit.rest.issues.createComment({
-                ...context.repo,
-                issue_number: issue.number,
-                body: "Roger that!"
-            });
-        }
-        catch (err) {
-            console.log(`Cannot comment because of ${err.message}`);
-        }
-
         const name = `THIS-REPO-HAS-${issues_count}-ISSUES`;
 
-        // Should not happen but in case it does
+        // * Should not happen but in case it does
         if (repo == name) { return; }
 
         await octokit.request("PATCH /repos/{owner}/{repo}", {
