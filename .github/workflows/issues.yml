@@ -1,0 +1,16 @@
+name: Issues
+
+on:
+  issues: 
+    [opened]
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - run: npm install
+    - uses: ./
+      with:
+        githubToken: ${{ secrets.GITHUBTOKEN }}

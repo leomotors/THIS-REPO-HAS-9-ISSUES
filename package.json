@@ -1,0 +1,23 @@
+{
+  "name": "this-repo-has-x-issues",
+  "version": "1.0.0",
+  "description": "This repo has so many issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leomotors/THIS-REPO-HAS-X-ISSUES.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leomotors/THIS-REPO-HAS-X-ISSUES/issues"
+  },
+  "homepage": "https://github.com/Leomotors/THIS-REPO-HAS-X-ISSUES",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  }
+}
