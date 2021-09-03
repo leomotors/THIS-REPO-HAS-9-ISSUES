@@ -1,9 +1,8 @@
-name: Issues
+name: "Issues"
 
 on:
   issues: 
     [opened]
-  workflow_dispatch:
 
 jobs:
   main:
