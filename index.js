@@ -6,8 +6,6 @@ async function run() {
         const GITHUBTOKEN = core.getInput("GITHUBTOKEN");
         const octokit = github.getOctokit(GITHUBTOKEN);
 
-        console.log(octokit);
-
         const owner = "Leomotors";
 
         const { context = {} } = github;
@@ -19,7 +17,7 @@ async function run() {
         const repo = repourl[repourl.length - 1];
 
         try {
-            await octokit.issues.createComment({
+            await octokit.rest.issues.createComment({
                 ...context.repo,
                 issue_number: issue.number,
                 body: "Roger that!"

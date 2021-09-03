@@ -6,4 +6,4 @@ Feel free to add more issues to this repo.
 
 ## Attempt taken
 
-16 Test is harm in development process. (test repo is deleted btw)
+16 Test is harm in development process. (you won't see those because I deleted it)
