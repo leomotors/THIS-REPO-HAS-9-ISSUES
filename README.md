@@ -8,9 +8,11 @@ me: *clicks unwatch*
 
 *kamui*
 
+Also, it takes around 20 sec to update so pls wait
+
 ## Attempt taken
 
-16 Test is harm in development process. (you won't see those because I deleted it)
+16 Tests is harmed in development process. (you won't see those because I deleted it)
 
 Sorry Microsoft for wasting your Bandwidth
 
