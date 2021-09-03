@@ -1,8 +1,6 @@
 name: "Issues"
 
 on:
-  workflow_dispatch:
-
   issues: 
     type: [opened]
 

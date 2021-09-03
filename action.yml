@@ -1,0 +1,12 @@
+name: "Rename Action"
+description: "Rename this Repo"
+author: "Leomotors"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "GitHub Token"
+    required: true
+
+runs:
+  using: "node12"
+  main: "./index.js"
